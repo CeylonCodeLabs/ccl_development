@@ -1,0 +1,9 @@
+[submodule "packages/ccl_data"]
+	path = packages/ccl_data
+	url = https://github.com/CeylonCodeLabs/ccl_data
+[submodule "packages/ccl_services"]
+	path = packages/ccl_services
+	url = https://github.com/CeylonCodeLabs/ccl_services
+[submodule "packages/ccl_ui"]
+	path = packages/ccl_ui
+	url = https://github.com/CeylonCodeLabs/ccl_ui
