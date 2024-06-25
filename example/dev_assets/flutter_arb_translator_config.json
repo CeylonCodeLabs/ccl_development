@@ -1,0 +1,23 @@
+{
+  "AzureCognitiveServices": {
+    "SubscriptionKey": "<required>",
+    "Region": "<optional>"
+  },
+  "YandexCloud": {
+    "APIKey": "<required>"
+  },
+  "GoogleCloud": {
+    "ProjectId": "browns-sfa",
+    "PrivateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDRdMxMNrN+Wpy1\nITqD++rgTBN1x3T/W7VzwNndsOv9q/ZSF1Wr+evXqpbIsrshrK0xILW9ijKPhsd4\nriNN6euM7u7kszPXqhnMDxOuE3NoBak3YwCMF1SQNcH5iJAG4aei/vXMN0VpJBwx\n71gmGMayQn+3KD4XpCuSq1CwbsOU4Cv/QFKifMpwh96AygQu1YBF3jyxoSrBjmnb\nuKYq+ZYG5QYidDoCAaSSvkot/f88Z+26z3iabG19RQ/T0N6hGZIzqexDHpmUjWzt\nXxSTtkyop04mzvx8Q2tnjUN8BzQjC49gHLizflIFmbpb8mWQPBvq/G+aLqxfWHnp\nY3p0n9yxAgMBAAECggEAGsr5QC2GH91Y6t2NhekRZjAtFBWXzHtvdldetxpE0b3v\nxBf6jEVrqvqGD7W3NMtJGz3vKYf2SEBKH1CNMRABYtWEhwo6UTXP13e9QXj4+/8v\nYmeeYA0y8sCBp9kVbV/rqPC6wez3CshE+AlBChyEvDQ/8I6sBKuqLDiQWYVNrOsV\nzpbyh0ERx4iS3HNkFswolfjdPJz8Oxu+KNaXaehSP9fpKYivtuNNsxGEW+bxW0VP\nzf+qPrNixEF4upDy2ZgnYe0xTQ23d9rZUWfacbxx0Hag+1I+KOcw0FlQb7Oy6zoY\n+3zkPYJwp5QVkPsmbImVRAkkgdlXceaTL62w2ajFbQKBgQDqdHQCks9cR86OA5ON\noNSJizvcdJjbP4QqNOTg0pbNaSgziQq/w5jKhmKLHIz3/aUmeVkco6fiVJpKf4Mm\nZQhgPB4CzuBpM2VgY4CPO3pgEyXV6TTH+IoK9pF9UX//QmRFZ7iCRPS5FvVrwZGJ\n6o0w2IHEjk3kLFGL0sTnOtC2lQKBgQDktECGkFPDyCuMmcHZMPzl9c8dL/K7tphc\nK7tyslk8bEsMh6D4mKlQF+EoTxwNDF6ZYSknb8ZK9zCRy/z/WLftqSPpM8dSnfYb\noaElWzMW+twslDLcT7VyMovodXJecsu6gxhAlqCOZ2qUdGI0W/1MNP8bLcdhp/IA\neLk7rEYSrQKBgGeYeUJB2HowCGbb0bD85ay45wRsSLZoBGAZ6yAkLRoqYucSoLtH\nFBY49wX84ZUacITljaiH78CkHWDZovuuHNtY9PHMs4AIg7zpen7Piy00iL1SRE4v\n1d8uP+8due7ySRgZ0n9NNM0sBdlNOJ+2EhkJMZ3GO0idBJNB2FtLs7lZAoGAX021\n7d1K6rUJYMfZ/dXqLTHnovQOJKcMiqw2qq8jfIhsJcaHD9EeDSBGVXPR7qYO7b+N\nVL/BVA/6D2eAADBKRSFMs6s+DnGA0zbhXh3JBnR3N6RyJViZ9gKWRsJabH1N5GUo\nwBGEypLR2Rc+rS8AOLeE7yB+i3Ve5U9pcTJy6OkCgYAdnnOFCjuSbmktgqJGS3RF\nZh/IPNRPF9nZrzyQBa0/NIp2aUEVhw0KIsj+v7BbJHwEwtUUiPcHlwqwfdnIBBoz\nBqgnG+dsG03VLF6LwLQSgFFsUlOvAnrwcwbZwmoeljM9H+f1gW5g1iH6SksNCmWl\n5ymLdpQoizPNKO73khtgcg==\n-----END PRIVATE KEY-----\n",
+    "ClientEmail": "translate@browns-sfa.iam.gserviceaccount.com"
+  },
+  "DeepL": {
+    "Url": "https://api.deepl.com",
+    "ApiKey": "<required>"
+  },
+  "AmazonTranslate": {
+    "AccessKeyId": "<required>",
+    "SecretAccessKey": "<required>",
+    "Region": "<required>"
+  }
+}

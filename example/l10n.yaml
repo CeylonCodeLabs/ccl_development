@@ -1,0 +1,10 @@
+arb-dir: lib/l10n
+template-arb-file: intl_en.arb
+output-localization-file: app_localizations.dart
+synthetic-package: false
+output-dir: lib/generated
+use-deferred-loading: true
+untranslated-messages-file: missing_translations.txt
+
+arb-translate-context: "AgStart"
+arb-translate-api-key: AIzaSyA1HsmPW9-hx4saSg7K3FMbT6nTU9ZmsIg

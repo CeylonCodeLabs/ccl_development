@@ -1,0 +1,17 @@
+{
+  "si": [
+    "ceyloncodelabs",
+    "loading",
+    "helloCeyloncodelabs",
+    "showDialog",
+    "showBottomSheet"
+  ],
+
+  "ta": [
+    "ceyloncodelabs",
+    "loading",
+    "helloCeyloncodelabs",
+    "showDialog",
+    "showBottomSheet"
+  ]
+}
