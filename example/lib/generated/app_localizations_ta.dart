@@ -8,14 +8,14 @@ class AppLocalizationsTa extends AppLocalizations {
   String get ceyloncodelabs => 'CeylonCodeLabs';
 
   @override
-  String get loading => 'Loading ...';
+  String get loading => 'ஏற்றுகிறது...';
 
   @override
-  String get helloCeyloncodelabs => 'Hello, CeylonCodeLabs!';
+  String get helloCeyloncodelabs => 'வணக்கம், CeylonCodeLabs!';
 
   @override
-  String get showDialog => 'Show Dialog';
+  String get showDialog => 'உரையாடலைக் காட்டு';
 
   @override
-  String get showBottomSheet => 'Show Bottom Sheet';
+  String get showBottomSheet => 'கீழ் தாளைக் காட்டு';
 }
