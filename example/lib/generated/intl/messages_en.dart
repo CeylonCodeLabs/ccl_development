@@ -29,6 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "loading": MessageLookupByLibrary.simpleMessage("Loading ..."),
         "showBottomSheet":
             MessageLookupByLibrary.simpleMessage("Show Bottom Sheet"),
-        "showDialog": MessageLookupByLibrary.simpleMessage("Show Dialog")
+        "showDialog": MessageLookupByLibrary.simpleMessage("Show Dialog"),
+        "showProgress": MessageLookupByLibrary.simpleMessage("Show Progress")
       };
 }

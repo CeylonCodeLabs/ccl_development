@@ -3,5 +3,6 @@
   "loading": "ஏற்றுகிறது...",
   "helloCeyloncodelabs": "வணக்கம், CeylonCodeLabs!",
   "showDialog": "உரையாடலைக் காட்டு",
-  "showBottomSheet": "கீழ் தாளைக் காட்டு"
+  "showBottomSheet": "கீழ் தாளைக் காட்டு",
+  "showProgress": "Show Progress"
 }

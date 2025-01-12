@@ -99,6 +99,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Show Progress`
+  String get showProgress {
+    return Intl.message(
+      'Show Progress',
+      name: 'showProgress',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

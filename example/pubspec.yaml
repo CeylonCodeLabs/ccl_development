@@ -19,22 +19,26 @@ dependencies:
   ccl_data:
     path: ../packages/ccl_data
 
-  stacked: ^3.4.0
-  stacked_services: ^1.1.0
+  ccl_services:
+    path: ../packages/ccl_services
+
+  stacked: ^3.4.4
+  stacked_services: ^1.6.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
-  build_runner: ^2.4.5
-  mockito: ^5.4.1
-  stacked_generator: ^1.3.3
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  mockito: ^5.4.5
+  stacked_generator: ^1.6.1
   flutter_arb_translator: ^1.0.15
-  dependency_validator: ^4.1.0
+  dependency_validator: ^4.1.2
 
 dependency_overrides:
   ccl_services:
     path: ../packages/ccl_services
+  intl: ^0.20.1
 
 flutter:
   uses-material-design: true

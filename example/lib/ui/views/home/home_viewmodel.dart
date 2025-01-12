@@ -33,4 +33,10 @@ class HomeViewModel extends BaseViewModel {
       description: ksHomeBottomSheetDescription,
     );
   }
+
+  void showProgress() async {
+    setBusy(true);
+    await Future.delayed(const Duration(seconds: 5));
+    setBusy(false);
+  }
 }

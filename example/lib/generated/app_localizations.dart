@@ -8,6 +8,8 @@ import 'app_localizations_en.dart' deferred as app_localizations_en;
 import 'app_localizations_si.dart' deferred as app_localizations_si;
 import 'app_localizations_ta.dart' deferred as app_localizations_ta;
 
+// ignore_for_file: type=lint
+
 /// Callers can lookup localized strings with an instance of AppLocalizations
 /// returned by `AppLocalizations.of(context)`.
 ///
@@ -123,6 +125,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Show Bottom Sheet'**
   String get showBottomSheet;
+
+  /// No description provided for @showProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Show Progress'**
+  String get showProgress;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

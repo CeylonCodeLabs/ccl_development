@@ -29,6 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "loading": MessageLookupByLibrary.simpleMessage("පූරණය වෙමින්..."),
         "showBottomSheet":
             MessageLookupByLibrary.simpleMessage("පහළ පත්‍රය පෙන්වන්න"),
-        "showDialog": MessageLookupByLibrary.simpleMessage("සංවාද පෙන්වන්න")
+        "showDialog": MessageLookupByLibrary.simpleMessage("සංවාද පෙන්වන්න"),
+        "showProgress": MessageLookupByLibrary.simpleMessage("Show Progress")
       };
 }

@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Tamil (`ta`).
 class AppLocalizationsTa extends AppLocalizations {
   AppLocalizationsTa([String locale = 'ta']) : super(locale);
@@ -18,4 +20,7 @@ class AppLocalizationsTa extends AppLocalizations {
 
   @override
   String get showBottomSheet => 'கீழ் தாளைக் காட்டு';
+
+  @override
+  String get showProgress => 'Show Progress';
 }

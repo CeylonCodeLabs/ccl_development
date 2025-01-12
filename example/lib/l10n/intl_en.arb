@@ -3,5 +3,6 @@
   "loading": "Loading ...",
   "helloCeyloncodelabs": "Hello, CeylonCodeLabs!",
   "showDialog": "Show Dialog",
-  "showBottomSheet": "Show Bottom Sheet"
+  "showBottomSheet": "Show Bottom Sheet",
+  "showProgress": "Show Progress"
 }

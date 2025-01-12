@@ -1,8 +1,9 @@
+import 'package:ccl_ui/ccl_ui.dart';
 import 'package:example/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:stacked/stacked.dart';
-import 'package:example/ui/common/ui_helpers.dart';
+
 
 import 'startup_viewmodel.dart';
 

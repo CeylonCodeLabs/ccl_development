@@ -23,21 +23,30 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CCLLocalization(
-      child: MaterialApp(
-        initialRoute: Routes.startupView,
-        onGenerateRoute: StackedRouter().onGenerateRoute,
-        navigatorKey: StackedService.navigatorKey,
-        navigatorObservers: [
-          StackedService.routeObserver,
-        ],
-        locale: locator.get<AppLocalizationService>().locale,
-        localizationsDelegates: const [
-          S.delegate,
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
-        ],
-        supportedLocales: S.delegate.supportedLocales,
+      childBuilder: (BuildContext context) => CCLUiConfigurator(
+        settings: CCLUiSettings(
+          backgroundProgressSettings: BackgroundProgressSettings(
+            backgroundColor: context.colors.surface.withValues(alpha: 0.3),
+          )
+        ),
+        builder: (context) {
+          return MaterialApp(
+            initialRoute: Routes.startupView,
+            onGenerateRoute: StackedRouter().onGenerateRoute,
+            navigatorKey: StackedService.navigatorKey,
+            navigatorObservers: [
+              StackedService.routeObserver,
+            ],
+            locale: locator.get<AppLocalizationService>().locale,
+            localizationsDelegates: const [
+              S.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            supportedLocales: S.delegate.supportedLocales,
+          );
+        },
       ),
     );
   }

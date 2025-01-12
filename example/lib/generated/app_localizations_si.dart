@@ -1,5 +1,7 @@
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Sinhala Sinhalese (`si`).
 class AppLocalizationsSi extends AppLocalizations {
   AppLocalizationsSi([String locale = 'si']) : super(locale);
@@ -18,4 +20,7 @@ class AppLocalizationsSi extends AppLocalizations {
 
   @override
   String get showBottomSheet => 'පහළ පත්‍රය පෙන්වන්න';
+
+  @override
+  String get showProgress => 'Show Progress';
 }
